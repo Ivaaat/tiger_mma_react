@@ -283,8 +283,56 @@
 }
 
 .coach-achievements {
-  white-space: pre-line;
-  line-height: 1.7;
+  margin-top: 28px;
+}
+
+.coach-achievements h4 {
+  margin: 0 0 16px;
+
+  color: var(--gold);
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.coach-achievements ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* max-height: 220px;
+  overflow-y: auto; */
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.coach-achievements li {
+  position: relative;
+
+  padding-left: 18px;
+
+  color: rgba(244, 239, 226, 0.78);
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.coach-achievements li::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  background: var(--gold);
 }
 
 @keyframes coachModalFade {

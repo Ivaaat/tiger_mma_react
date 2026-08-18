@@ -7,6 +7,7 @@ import WhyUs from './components/WhyUs';
 import Team from './components/Team';
 import Gallery from './components/Gallery';
 import CtaBand from './components/CtaBand';
+import FloatingBooking from "./components/FloatingBooking";
 import Footer from './components/Footer';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Gallery />
       <CtaBand />
       <Footer />
+      <FloatingBooking />
     </>
   );
 }
