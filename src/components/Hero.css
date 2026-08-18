@@ -1,0 +1,98 @@
+/* ---------- HERO ---------- */
+
+  .hero{
+    background-image: url('/fon.jpg');
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    padding:64px 0 90px;
+    overflow:hidden;
+  }
+
+  .hero-grid{
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:36px;
+    align-items:center;
+    text-align:center;
+  }
+  .hero-arc-wrap {
+    position: relative;
+    width: min(260px, 50vw);
+    margin: 0 auto;
+  }
+
+  .hero-arc-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+  .hero h1{
+    color:var(--cream);
+    text-transform: uppercase;
+    font-size:clamp(38px,7vw,62px);
+    line-height:1.2;
+  }
+  .hero h1 em{color:var(--gold); font-style:normal;}
+  .hero-sub{
+    color:rgba(244,239,226,0.78);
+    font-size:17px;
+    max-width:520px;
+    margin:16px auto 0;
+    line-height:1.55;
+  }
+  .hero-actions{
+    margin-top:30px;
+    display:flex; gap:14px; justify-content:center; flex-wrap:wrap;
+  }
+  .hero-phone{
+    display: grid;
+    place-items: center;
+    margin-top:18px;
+    color:var(--cream);
+    font-weight:800;
+    font-size:22px;
+    letter-spacing:0.02em;
+  }
+  .hero-phone span{
+    display:block;
+    color:rgba(244,239,226,0.55);
+    font-weight:700;
+    font-size:11px;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    margin-bottom:4px;
+  }
+  .hero-tags {
+  margin-top: 34px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  border: 1px solid rgba(244, 239, 226, 0.28);
+  color: rgba(244, 239, 226, 0.85);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  border-radius: 100px;
+}
+
+.tag em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+
+/* Мобильная версия */
+@media (max-width: 600px) {
+  .hero-tags {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
