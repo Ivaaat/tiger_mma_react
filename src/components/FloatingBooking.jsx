@@ -4,7 +4,7 @@ export default function FloatingBooking() {
     return (
         <a
             className="floating-booking"
-            href="https://vk.ru/im/convo/-228456421?entrypoint=community_page&tab=all"
+            href="https://vk.ru/write-228456421"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Записаться онлайн через VK"
