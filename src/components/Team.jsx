@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const COACHES = [
   {
-    image: '/tiger_mma_kickboxing_coach_kozlov_mikhail_alexandrovich.jpg',
+    image: '/tiger_mma_kickboxing_coach_kozlov_mikhail_alexandrovich.webp',
     role: 'ММА · Функциональная подготовка',
     name: 'Козлов Михаил Александрович',
     achievements: [
@@ -18,7 +18,7 @@ const COACHES = [
     ]
   },
   {
-    image: '/tiger_mma_kickboxing_coach_kozlova_irina_olegovna.jpg',
+    image: '/tiger_mma_kickboxing_coach_kozlova_irina_olegovna.webp',
     role: 'Бокс · Кикбоксинг',
     name: 'Козлова (Кряжева) Ирина Олеговна',
     achievements: [
